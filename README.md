@@ -40,7 +40,6 @@ Siga as etapas abaixo para rodar o código do projeto após configurar o ambient
 5. **Verifique os resultados**  
    Após a execução, o código pode gerar gráficos e outros resultados, como arquivos de log ou relatórios, para que você possa visualizar o desempenho do modelo.
 
-Aqui está uma seção sobre as **Tecnologias Utilizadas** que você pode incluir no `README.md`:
 
 ---
 
