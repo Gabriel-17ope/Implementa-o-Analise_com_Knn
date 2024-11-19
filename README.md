@@ -60,15 +60,13 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias e bibliotecas:
 ---
 
 # Resultados
+<img src="docs/img01.jpeg" alt="Mapa de Calor" width="600"/> <br> **Figura 1:** Este mapa de calor visualiza as correlações entre diferentes métricas, como número de seguidores, engajamento e outras variáveis relevantes. As cores mais quentes (vermelho) indicam uma correlação positiva forte, enquanto as cores mais frias (azul) indicam uma correlação negativa forte. Cores próximas ao branco indicam correlações fracas ou inexistentes.
+<br> 
 
-![img01](docs/img01.jpeg) <br>
-Este mapa de calor visualiza as correlações entre diferentes métricas, como número de seguidores, engajamento e outras variáveis relevantes. As cores mais quentes (vermelho) indicam uma correlação positiva forte, enquanto as cores mais frias (azul) indicam uma correlação negativa forte. Cores próximas ao branco indicam correlações fracas ou inexistentes.
+<img src="docs/img02.jpeg" alt="Gráfico de Correlação" width="600"/> <br> **Figura 2:** O gráfico visualiza a correlação entre a classificação e a pontuação de influência dos 20 primeiros elementos. A pontuação de influência, que mede a relevância ou impacto de cada elemento, não apresenta uma relação linear com a classificação. Isso sugere que outros fatores, além da posição no ranking, contribuem para a pontuação final. 
+<br> 
 
-![img02](docs/img02.jpeg) <br>
-O gráfico visualiza a correlação entre a classificação e a pontuação de influência dos 20 primeiros elementos. A pontuação de influência, que mede a relevância ou impacto de cada elemento, não apresenta uma relação linear com a classificação. Isso sugere que outros fatores, além da posição no ranking, contribuem para a pontuação final.
-
-![img03](docs/img03.jpeg) <br>
-O boxplot compara a distribuição do número de seguidores por continente, evidenciando diferenças significativas entre as regiões.
+<img src="docs/img03.jpeg" alt="Boxplot por Continente" width="600"/> <br> **Figura 3:** O boxplot compara a distribuição do número de seguidores por continente, evidenciando diferenças significativas entre as regiões.
 
 ---
 
