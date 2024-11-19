@@ -3,6 +3,8 @@
 ## Descrição do Projeto:
   Este projeto utiliza um algoritmo de inteligência artificial (k-Nearest Neighbors) para prever o impacto dos influenciadores do Instagram, com base em informações como número de seguidores, curtidas nas postagens e taxa de engajamento. O objetivo é ajudar marcas a identificar influenciadores que podem ter maior sucesso em suas campanhas de marketing, tornando a escolha mais fácil e eficiente. O modelo analisa dados dos influenciadores e faz previsões sobre seu "poder de influência" na plataforma.
 
+---
+
 # Instalação:
 
 Siga os passos abaixo para configurar o ambiente e rodar o projeto localmente:
@@ -18,6 +20,8 @@ Siga os passos abaixo para configurar o ambiente e rodar o projeto localmente:
 
 4. **Instale as dependências**  
    Com o ambiente virtual ativado, instale as bibliotecas necessárias com o comando `pip install -r requirements.txt`.
+
+---
 
 # Como Executar:
 
@@ -52,6 +56,21 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias e bibliotecas:
 - **NumPy**: Biblioteca usada para realizar operações matemáticas e manipulação de arrays, essencial para o processamento numérico dos dados.
 - **Scikit-learn**: Framework para aprendizado de máquina, utilizado para implementar o algoritmo k-Nearest Neighbors (kNN) e realizar a otimização de hiperparâmetros com GridSearchCV.
 - **Matplotlib** e **Seaborn**: Bibliotecas para criação de gráficos e visualizações, utilizadas para explorar os dados e analisar o desempenho do modelo.
+
+---
+
+# Resultados
+
+![img01](docs/img01.jpeg)
+Este mapa de calor visualiza as correlações entre diferentes métricas, como número de seguidores, engajamento e outras variáveis relevantes. As cores mais quentes (vermelho) indicam uma correlação positiva forte, enquanto as cores mais frias (azul) indicam uma correlação negativa forte. Cores próximas ao branco indicam correlações fracas ou inexistentes.
+
+![img02](docs/img02.jpeg)
+O gráfico visualiza a correlação entre a classificação e a pontuação de influência dos 20 primeiros elementos. A pontuação de influência, que mede a relevância ou impacto de cada elemento, não apresenta uma relação linear com a classificação. Isso sugere que outros fatores, além da posição no ranking, contribuem para a pontuação final.
+
+![img03](docs/img03.jpeg)
+O boxplot compara a distribuição do número de seguidores por continente, evidenciando diferenças significativas entre as regiões.
+
+---
 
 # Autores e Colaboradores:
 
